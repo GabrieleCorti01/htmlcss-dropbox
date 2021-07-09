@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-blue{
+    padding: 10px 15px;
+    line-height: 10px;
+    margin-left: 30px;
+    background-color: rgb(41, 90, 223);
+    color: white;
+}
+
+#container-header{
+    height: 80px;
+    background-color: white;
+    position: relative;
+    line-height: 80px;
+}
+
+ul,
+li,
+nav div{
+    display: inline-block;
+    padding-left: 35px;
+}
+
+#dropbox-logo > img{
+    vertical-align: middle;
+}
+
+#second-half{
+    padding-right: 70px;
+}

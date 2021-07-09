@@ -94,3 +94,126 @@ p > i{
     height: 520px;
     padding-left: 100px;
 }
+
+main{
+    width: 70%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.contenitore-piano-abbonamento{
+    margin: 60px;
+}
+
+.piani-abbonamento{
+    padding-top: 200px;
+}
+
+.piani-abbonamento > h1{
+    font-size: 50px;
+}
+
+.radio-input{
+    padding-top: 50px;
+    font-size: 17px; 
+    font-weight: 600; 
+}
+
+#annuale{
+    margin-left: 30px;
+}
+
+.contenitore-piano-abbonamento{
+    width: 350px;
+}
+
+.box-abbonamento{
+    width: 350px;
+    height: 1000px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+
+.header-box{
+    width: 350px;
+    height: 50px;
+    border: 1px solid grey;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title-abbonamento > h2{
+    font-size: 25px;
+}
+
+.subtitle-abbonamento{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.undersubtitle-abbonamento{
+    padding-top: 10px;
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.description-abbonamento i{
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.description-abbonamento{
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+#provagratis-btn{
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.container-button-text{
+    font-size: 15px;
+}
+
+.container-button-text span{
+    color: rgb(41, 90, 223);
+    text-decoration: underline;
+}
+
+.container-button-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lineadivisoria{
+    border-top: 1px solid rgb(139, 139, 139);
+    width: 50px;
+}
+
+.container-lista{
+    padding-top: 30px;
+}
+
+.container-lista > p{
+    font-weight: 700;
+}
+
+.lista-abbonamento{
+    padding-left: 0px;
+}
+
+.lista-abbonamento > li{
+    margin-top: 20px;
+}
+
+.lista-abbonamento  i{
+    color: rgb(41, 90, 223);
+}
+

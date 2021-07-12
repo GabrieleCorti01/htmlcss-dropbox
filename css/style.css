@@ -298,6 +298,7 @@ main{
     height: 550px;
     width: 400px;
     padding: 25px;
+    margin-left: 40px;
 }
 
 .container-singolo-prodotto > h2{

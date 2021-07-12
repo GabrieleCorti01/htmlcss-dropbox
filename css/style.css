@@ -217,3 +217,39 @@ main{
     color: rgb(41, 90, 223);
 }
 
+.box-abbonamento#abbonamento-footer-container{
+    min-width: 1290px;
+    margin-left: 60px;
+    height: 180px;
+    position: relative;
+}
+
+.header-box-abbonamento#header-footerbox-abbonamento{
+    width: 1290px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#titolo-sottotitolo-abbonamento{
+    height: 100px;
+}
+
+#titolo-sottotitolo-abbonamento > p{
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.button-blue#contatta-ufficio-vendite{
+    padding: 10px 80px 10px 80px;
+    margin-left: 550px;
+}
+
+#sottotitolo-abbonamento-enterprise{
+    position: absolute;
+    bottom: 30px;
+}

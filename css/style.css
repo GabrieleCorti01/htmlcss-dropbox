@@ -305,3 +305,22 @@ main{
     font-size: 30px;
     padding-bottom: 20px;
 }
+
+.margin-top{
+    margin-top: 50px;
+}
+
+#titolo-sottotitolo-aziendepartner{
+    width: 700px;
+    padding-left: 50px;
+}
+
+#titolo-sottotitolo-aziendepartner > h1{
+    font-size: 45px;
+    padding-top: 150px;
+}
+
+#titolo-sottotitolo-aziendepartner p{
+    font-weight: 600;
+    padding-top: 30px;
+}

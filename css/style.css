@@ -218,17 +218,15 @@ main{
 }
 
 .box-abbonamento#abbonamento-footer-container{
-    min-width: 1290px;
-    margin-left: 60px;
+    min-width: 100%;
     height: 180px;
     position: relative;
 }
 
 .header-box-abbonamento#header-footerbox-abbonamento{
-    width: 1290px;
+    width: 100%;
     height: 50px;
     border: 1px solid black;
-    margin-left: 60px;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
@@ -246,10 +244,63 @@ main{
 
 .button-blue#contatta-ufficio-vendite{
     padding: 10px 80px 10px 80px;
-    margin-left: 550px;
+    margin-left: 500px;
+    font-weight: 600;
 }
 
 #sottotitolo-abbonamento-enterprise{
     position: absolute;
     bottom: 30px;
+}
+
+#container-contatto-partner{
+    padding-top: 170px;
+}
+
+#image-partner > img{
+    height: 650px;
+}
+
+#title-subtitle-partner > h2{
+    font-size: 30px;
+    padding-bottom: 35px;
+    padding-top: 50px;
+}
+
+#title-subtitle-partner > p{
+    font-size: 20px;
+}
+
+#title-subtitle-partner{
+    width: 43%;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.button-blue#btn-trova-partner{
+    padding: 10px 30px 10px 30px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    margin-left: 100px;
+}
+
+#container-dropbox-business > h1{
+    font-size: 48px;
+    padding-top: 100px;
+}
+
+.container-singolo-prodotto img{
+    height: 290px;
+}
+
+.container-singolo-prodotto{
+    height: 550px;
+    width: 400px;
+    padding: 25px;
+}
+
+.container-singolo-prodotto > h2{
+    font-size: 30px;
+    padding-bottom: 20px;
 }

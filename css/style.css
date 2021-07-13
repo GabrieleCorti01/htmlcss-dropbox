@@ -95,7 +95,7 @@ p > i{
     padding-left: 100px;
 }
 
-main{
+.width70{
     width: 70%;
     height: 900px;
     margin: 0 auto;
@@ -333,12 +333,10 @@ main{
     width: 2000px;
 }
 
-.container-logos{
-    width: 500px;
-    height: 500px;
-    background-color: blanchedalmond;
-    margin-left: -305px;
-}
+    .container-logos{
+        width: 500px;
+        height: 500px;
+    }
 
 .image-container-partner{
     height: 250px;
@@ -391,7 +389,67 @@ main{
 }
 
 #blocco-designit{
+    background-color: lightgrey;
     width: 1033px;
     height: 500px;
-    background-color: lightgreen;
+    margin-top: -250px;
+    padding: 50px;
+}
+
+#blocco-designit > img{
+    height: 90px;
+    padding-bottom: 40px;
+}
+
+#blocco-designit > p{
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.margin-top{
+    margin-top: -250px;
+}
+
+#container-logo-bicycle{
+    background-color: rgb(255, 38, 38);
+}
+
+#container-logo-bicycle > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+#container-logo-hearst{
+    background-color: rgb(174, 225, 255);
+}
+
+#container-logo-hearst > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 15px;
+    vertical-align: middle;
+    padding-left: 45px;
+}
+
+#container-logo-planet{
+    background-color: rgb(31, 27, 141);
+}
+
+#container-logo-planet > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 80px;
+    vertical-align: middle;
+    padding-left: 45px;
+}
+
+#container-logo-channel{
+    background-color: rgb(240, 224, 9);
+}
+
+#container-logo-channel > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 80px;
+    vertical-align: middle;
+    padding-left: 60px;
 }

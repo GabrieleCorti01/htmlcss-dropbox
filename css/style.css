@@ -423,3 +423,25 @@ p > i{
     margin-left: 500px;
 }
 
+.container-domande{
+    padding-top: 130px;
+}
+
+.container-domande > h2{
+    font-size: 35px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 50px;
+}
+
+.container-domande i{
+    padding-left: 750px;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.container-domande p{
+    border-bottom: 1px solid lightgrey;
+    font-weight: 600;
+}
+

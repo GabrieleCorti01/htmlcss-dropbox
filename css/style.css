@@ -261,23 +261,21 @@ p > i{
 }
 
 #title-subtitle-partner > h1{
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 35px;
     padding-top: 50px;
 }
 
-#title-subtitle-partner > p{
-    font-size: 20px;
-}
-
 #title-subtitle-partner a{
     color: rgb(42, 159, 255);
+    font-size: 15px;
 }
 
 #title-subtitle-partner{
     width: 58%;
     padding-left: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    padding-top: 80px;
 }
 
 .button-blue#btn-trova-partner{
@@ -404,10 +402,24 @@ p > i{
 
 .container-prova-gratuita{
     width: 100%;
-    height: 500px;
+    height: 350px;
     background-color: lightsteelblue;
+    padding-top: 125px;
 }
 
-.container-all-logos{
-    padding-top: 50px;
+#container-prova-titolo{
+    width: 40%;
 }
+
+#container-prova-titolo > h1{
+    font-size: 40px;
+    color: rgb(122, 0, 47);
+}
+
+.button-blue#btn-prova-white{
+    padding: 10px 60px;
+    background-color: white;
+    color: black;
+    margin-left: 500px;
+}
+

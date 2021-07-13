@@ -453,3 +453,9 @@ p > i{
     vertical-align: middle;
     padding-left: 60px;
 }
+
+.container-prova-gratuita{
+    width: 100%;
+    height: 500px;
+    background-color: lightsteelblue;
+}

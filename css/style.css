@@ -24,7 +24,7 @@ body{
 
 .button-blue{
     background-color: rgb(41, 90, 223);
-    color: white;
+    color: #ffffff;
 }
 
 .button-blue#inizia-btn{
@@ -279,7 +279,7 @@ main{
 
 .button-blue#btn-trova-partner{
     padding: 10px 30px 10px 30px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     background-color: white;
     color: black;
     margin-left: 100px;
@@ -315,6 +315,10 @@ main{
     padding-left: 50px;
 }
 
+#container-aziende-partner{
+    width: 2000px;
+}
+
 #titolo-sottotitolo-aziendepartner > h1{
     font-size: 45px;
     padding-top: 150px;
@@ -323,4 +327,71 @@ main{
 #titolo-sottotitolo-aziendepartner p{
     font-weight: 600;
     padding-top: 30px;
+}
+
+.max-width{
+    width: 2000px;
+}
+
+.container-logos{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin-left: -305px;
+}
+
+.image-container-partner{
+    height: 250px;
+    width: 250px;
+    line-height: 250px;
+}
+
+#container-logo-design{
+    background-color: lightgreen;
+}
+
+#container-logo-design > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 60px;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+#container-logo-arizona{
+    background-color: rgb(109, 10, 10);
+}
+
+#container-logo-arizona > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 70px;
+}
+
+#container-logo-florida{
+    background-color: rgb(38, 176, 255);
+}
+
+#container-logo-florida > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+#container-logo-topps{
+    background-color: rgb(233, 33, 33);
+}
+
+#container-logo-topps > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    height: 70px;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+#blocco-designit{
+    width: 1033px;
+    height: 500px;
+    background-color: lightgreen;
 }

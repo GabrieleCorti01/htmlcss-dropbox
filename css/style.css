@@ -97,7 +97,6 @@ p > i{
 
 .width70{
     width: 70%;
-    height: 900px;
     margin: 0 auto;
 }
 
@@ -261,8 +260,8 @@ p > i{
     height: 650px;
 }
 
-#title-subtitle-partner > h2{
-    font-size: 30px;
+#title-subtitle-partner > h1{
+    font-size: 50px;
     padding-bottom: 35px;
     padding-top: 50px;
 }
@@ -271,10 +270,14 @@ p > i{
     font-size: 20px;
 }
 
+#title-subtitle-partner a{
+    color: rgb(42, 159, 255);
+}
+
 #title-subtitle-partner{
-    width: 43%;
+    width: 58%;
     padding-left: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
 
 .button-blue#btn-trova-partner{
@@ -333,66 +336,43 @@ p > i{
     width: 2000px;
 }
 
-    .container-logos{
-        width: 500px;
-        height: 500px;
-    }
+.container-logos{
+    width: 30vw;
+}
 
 .image-container-partner{
     height: 250px;
-    width: 250px;
+    width: 15vw;
     line-height: 250px;
+    text-align: center;
+}
+
+.image-container-partner img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
+    vertical-align: middle;
+    width: 40%;
 }
 
 #container-logo-design{
     background-color: lightgreen;
 }
 
-#container-logo-design > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 60px;
-    vertical-align: middle;
-    padding-left: 25px;
-}
-
 #container-logo-arizona{
     background-color: rgb(109, 10, 10);
-}
-
-#container-logo-arizona > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 100px;
-    vertical-align: middle;
-    padding-left: 70px;
 }
 
 #container-logo-florida{
     background-color: rgb(38, 176, 255);
 }
 
-#container-logo-florida > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 30px;
-    vertical-align: middle;
-    padding-left: 25px;
-}
-
 #container-logo-topps{
     background-color: rgb(233, 33, 33);
 }
 
-#container-logo-topps > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 70px;
-    vertical-align: middle;
-    padding-left: 50px;
-}
-
 #blocco-designit{
     background-color: lightgrey;
-    width: 1033px;
+    width: calc(100% - 60vw);
     height: 500px;
-    margin-top: -250px;
     padding: 50px;
 }
 
@@ -406,56 +386,28 @@ p > i{
     font-size: 20px;
 }
 
-.margin-top{
-    margin-top: -250px;
-}
-
 #container-logo-bicycle{
     background-color: rgb(255, 38, 38);
-}
-
-#container-logo-bicycle > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 50px;
-    vertical-align: middle;
-    padding-left: 50px;
 }
 
 #container-logo-hearst{
     background-color: rgb(174, 225, 255);
 }
 
-#container-logo-hearst > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 15px;
-    vertical-align: middle;
-    padding-left: 45px;
-}
-
 #container-logo-planet{
     background-color: rgb(31, 27, 141);
-}
-
-#container-logo-planet > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 80px;
-    vertical-align: middle;
-    padding-left: 45px;
 }
 
 #container-logo-channel{
     background-color: rgb(240, 224, 9);
 }
 
-#container-logo-channel > img{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(102%);
-    height: 80px;
-    vertical-align: middle;
-    padding-left: 60px;
-}
-
 .container-prova-gratuita{
     width: 100%;
     height: 500px;
     background-color: lightsteelblue;
+}
+
+.container-all-logos{
+    padding-top: 50px;
 }

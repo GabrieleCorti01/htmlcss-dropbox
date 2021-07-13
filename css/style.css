@@ -468,6 +468,22 @@ footer{
     font-size: 25px;
 }
 
+#linea-bianca{
+    width: 150px;
+    border-bottom: 1px solid white;
+    margin-left: 200px;
+}
+
+#selettore-lingua{
+    font-size: 15px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+#selettore-lingua i{
+    font-size: 13px;
+}
+
 
 
 

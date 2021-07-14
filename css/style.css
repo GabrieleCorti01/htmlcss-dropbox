@@ -256,6 +256,20 @@ p > i{
     padding-top: 170px;
 }
 
+#title-subtitle-trovapartner{
+    width: 35%;
+    padding-left: 50px;
+}
+
+#title-subtitle-trovapartner > h2{
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
+#title-subtitle-trovapartner p{
+    padding-bottom: 35px;
+}
+
 #image-partner > img{
     height: 650px;
 }
@@ -272,7 +286,7 @@ p > i{
 }
 
 #title-subtitle-partner{
-    width: 58%;
+    width: 48%;
     padding-left: 100px;
     padding-bottom: 20px;
     padding-top: 80px;
@@ -283,7 +297,7 @@ p > i{
     border: 1px solid #000000;
     background-color: white;
     color: black;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 #container-dropbox-business > h1{
@@ -478,6 +492,7 @@ footer{
     font-size: 15px;
     padding-left: 200px;
     padding-bottom: 50px;
+    color: rgb(145, 145, 145);
 }
 
 #selettore-lingua i{
